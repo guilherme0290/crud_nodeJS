@@ -14,7 +14,7 @@ server.use(express.json());
 server.listen(3000);
 
 // sincroniza o banco de dados, se tiver tabelas que ainda nao existe, ira criar
-//sicronizeDatabase()
+sicronizeDatabase()
 
 // Rotas para categoria
 server.post('/inserir_categoria', catController.post);
